@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.imageDiv {
+ display: flex;
+}
+
+
+.info {
+   height: 100vh;
+   width: 55vw;
+   background-color: rgb(197, 201, 206);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+
+.title {
+ align-self: center;
+ width: 45vw;
+ background-color: rgba(0, 0, 0, 0.5);
+ 
+ height: 100px;
+}
+
+
+.mainInfo {
+ background-color: aliceblue;
+ width: 55vw;
+ height: 500px;
+ box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.3);
+ }
+
+
+.headers {
+ font-family: 'Raleway', sans-serif;
+ padding-bottom: 50px;
+ padding-right: 50px;
+ align-self: flex-start;
+ width: 1000px;
+ padding-left: 25px;
+ font-size: 25px;
+}
+
+.mainInfo .header {
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.doubleQuestion {
+    display: flex;
+    justify-content: space-around;
+}
+
+.question {
+    padding-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
+    width: 200px;
+    font-size: 30px;
+    
+}
+
+.realTitle {
+    color: aliceblue;
+    opacity: 1;
+   text-align: center;
+}
+
+.Button {
+    padding: 20px;
+    background-color: green;
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+    margin: 30px;
+    border-radius: 5px;
+}
